@@ -4,9 +4,9 @@ import img_logo from '/tREND.png'
 const Navbar = () => {
     return (
         <nav className="bg-blue-500/80 p-4">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between lg:justify-evenly">
                 <div>
-                    <img src={img_logo} alt="Logo" className='w-20 h-20 rounded-xl shadow-lg'/>
+                    <img src={img_logo} alt="Logo" className='w-20 h-20 aspect-circle rounded-full shadow-lg'/>
                 </div>
                 <div>
                     <ul className="flex space-x-6 text-white font-bold">
